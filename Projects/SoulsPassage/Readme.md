@@ -11,12 +11,11 @@ This
 
 ## Team
 
-| Laura Tuxans | Producer / Artist |
-|-|-|
-| Grazielly San | Designer / Artist |
-|-|-|
-| Paola Pica | Designer / Artist |
-|-|-|
+- Laura Tuxans - Producer | Artist
+- Grazielly Sanchez - Designer | Artist
+- Paola Pica - Designer | Artist
+- Gerard Martínez - Designer
+- Camilo Londoño (Me) - Programmer
 
 ## Systems and Features
 
