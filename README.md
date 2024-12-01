@@ -38,7 +38,7 @@ Play as Chiara, a little girl trapped in a magical train. Your mission is to esc
 ---
 
 ### [Osiris | 2023](https://capita333.itch.io/osiris) - [See Process](Projects/Osiris/README.md)  
-![Osiris](images/osiris.jpg)  
+![Osiris](Images/Osiris.png)  
 
 Embark on an adventure through a dungeon, solving puzzles and overcoming obstacles as Isis searches for her lost husband.  
 
