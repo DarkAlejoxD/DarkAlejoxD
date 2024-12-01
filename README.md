@@ -50,7 +50,7 @@ Embark on an adventure through a dungeon, solving puzzles and overcoming obstacl
   - Gained experience using Render Textures.
 
 ### [Requiem | Unrealeased](https://capita333.itch.io/osiris) - [See Process](Projects/Osiris/README.md)  
-![Requiem](images/requiem.jpg)  
+![Requiem](Images/Requiem.png)  
 
 Embark on an adventure through a dungeon, solving puzzles and overcoming obstacles as Isis searches for her lost husband.  
 
