@@ -26,7 +26,8 @@ Experienced in developing **2D and 3D puzzle and platform games in Unity**.
 
 Play as Chiara, a little girl trapped in a magical train. Your mission is to escape the train with the skills she has learned.  
 
-- **Genre:** 3D platformer game developed in Unity.  
+- **Genre:**
+  - 3D platformer game developed in Unity.  
 - **Contribution:**  
   - Developed and tested the player controller using an FSM to handle player states.  
   - Conducted functional, negative, and exploratory tests for player abilities.  
@@ -42,7 +43,8 @@ Play as Chiara, a little girl trapped in a magical train. Your mission is to esc
 
 Embark on an adventure through a dungeon, solving puzzles and overcoming obstacles as Isis searches for her lost husband.  
 
-- **Genre:** 2D puzzle-platformer game developed in Unity.  
+- **Genre:**
+  - 2D puzzle-platformer game developed in Unity.  
 - **Contribution:**  
   - Designed the player controller, portal mechanics, level system, and hazards.  
 - **Insights:**  
@@ -54,7 +56,8 @@ Embark on an adventure through a dungeon, solving puzzles and overcoming obstacl
 
 Embark on an adventure through a dungeon, solving puzzles and overcoming obstacles as Isis searches for her lost husband.  
 
-- **Genre:** 2D puzzle-platformer game developed in Unity.  
+- **Genre:**
+  - 2D puzzle-platformer game developed in Unity.  
 - **Contribution:**  
   - Designed the player controller, portal mechanics, level system, and hazards.  
 - **Insights:**  
@@ -67,7 +70,8 @@ Embark on an adventure through a dungeon, solving puzzles and overcoming obstacl
 ### [Weight For It | GMTK 2024](https://aran-piris.itch.io/weigh-for-it)  
 Test your skills in this thrilling game show where every gram counts.  
 
-- **Genre:** 2D arcade game developed in Unity.  
+- **Genre:**
+  - 2D arcade game developed in Unity.  
 - **Contribution:**  
   - Improved the dialogue system from _Atka_ and contributed to the game loop and object escalation mechanics.  
 - **Insights:**  
@@ -79,7 +83,8 @@ Test your skills in this thrilling game show where every gram counts.
 _Atka_ follows Lilith, a volunteer studying the Inuit tribe.  
 With her translator Ana, she uncovers mysteries hidden in the research project.  
 
-- **Genre:** 3D narrative adventure game developed in Unity.  
+- **Genre:**
+  - 3D narrative adventure game developed in Unity.  
 - **Contribution:**  
   - Built the dialogue system from scratch.  
   - Created a cheat system to accelerate testing of advanced game stages without replaying the full game.  
@@ -91,7 +96,8 @@ With her translator Ana, she uncovers mysteries hidden in the research project.
 ### [Catalex (prototype) | Premis Ludi 2024](https://elix03.itch.io/catadex)  
 A serious game showcasing the value of the Catalan language.  
 
-- **Genre:** 2D serious game developed in Unity.  
+- **Genre:**
+  - 2D serious game developed in Unity.  
 - **Contribution:**  
   - Implemented the game loop, card system, and animations.  
 - **Insights:**  
