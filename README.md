@@ -4,10 +4,22 @@
 I am a passionate game developer focused on continuous learning and improving game development processes. My goal is to pursue a career as a Gameplay Programmer, bringing games to life with innovative mechanics and solid technical foundations.  
 
 ## Technical Skills  
-- **Game Engines:** Unity, Unreal Engine, Defold, Love2D.  
-- **Programming Languages:** C#, Lua.  
-- **Design Patterns:** Singleton, Observer, State, Object Pooling.  
-- **Version Control:** GitHub - proficient in managing branches and resolving conflicts.  
+- **Game Engines:**
+    - Unity
+    - Defold
+    - Love2D
+    - Unreal Engine  
+- **Programming Languages:**
+    - C#
+    - Lua  
+- **Design Patterns:**
+    - Singleton
+    - Observer
+    - State
+    - Object Pooling
+    - SOLID Principles
+- **Version Control:**
+    - GitHub
 
 ## Projects  
 
