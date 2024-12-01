@@ -1,110 +1,111 @@
 # Camilo Alejandro Londoño Otero  
 
-## About Me  
-I am a developer with a passion for continuous **learning** and **improving** game development processes. Looking ahead, my long-term goal is to pursue a career as a **Gameplay Programmer** aiming at bringing games to life.
+## 🌟 About Me  
+I am a developer with a passion for continuous **learning** and **improving** game development processes.  
+My long-term goal is to pursue a career as a **Gameplay Programmer**, bringing games to life.  
 Experienced in developing **2D and 3D puzzle and platform games in Unity**.
 
-## Technical Skills  
-- **Game Engines:**
-    - Unity
-    - Defold
-    - Love2D
-    - Unreal Engine  
-- **Programming Languages:**
-    - C#
-    - Lua  
-- **Design Patterns:**
-    - Singleton
-    - Observer
-    - State
-    - Object Pooling
-    - SOLID Principles
-- **Version Control:**
-    - GitHub
+---
 
-## Projects  
+## 🛠️ Technical Skills  
+- **Game Engines:**  
+  Unity | Defold | Love2D | Unreal Engine  
+- **Programming Languages:**  
+  C# | Lua  
+- **Design Patterns:**  
+  Singleton | Observer | State | Object Pooling | SOLID Principles  
+- **Version Control:**  
+  GitHub (proficient in managing branches and resolving conflicts)
 
-### [Soul's Passage](https://lauratux.itch.io/souls-passage) - [See Process](Projects/SoulsPassage/README.md)  
-Play as Chiara, a little girl who is trapped on a magical train.
+---
 
-Your mission is to escape the train with the help of the skills she has learned along the way.
+## 🎮 Projects  
 
-**Genre**
-- 3D platformer game developed in Unity.
+### [Soul's Passage | 2024](https://lauratux.itch.io/souls-passage) - [See Process](Projects/SoulsPassage/README.md)  
+![Soul's Passage](images/souls-passage.jpg)  
 
-**Contribution**
-- Developed and tested the player controller using a FSM to handle different player states, and conducted functional, negative and exploratory tests for player abilities.
-- Created a tool to save and teleport to specific map locations optimizing level testing.
+Play as Chiara, a little girl trapped in a magical train. Your mission is to escape the train with the skills she has learned.  
 
-**Insights**
-- Integrated FMOD for sound design and explored the Cinemachine Package for improved camera composition.
+- **Genre:** 3D platformer game developed in Unity.  
+- **Contribution:**  
+  - Developed and tested the player controller using an FSM to handle player states.  
+  - Conducted functional, negative, and exploratory tests for player abilities.  
+  - Created a tool to save and teleport to specific map locations for optimized level testing.  
+- **Insights:**  
+  - Integrated FMOD for sound design.  
+  - Explored Cinemachine for improved camera composition.  
 
-### [Osiris](https://capita333.itch.io/osiris) - [See Process](Projects/Osiris/README.md)  
-Osiris is a 2D puzzle-platformer that narrates the story of Isis, who Is looking for her lost husband.
+---
 
-Embark on an adventure through a dungeon, solving puzzles and overcoming obstacles.
+### [Osiris | 2023](https://capita333.itch.io/osiris) - [See Process](Projects/Osiris/README.md)  
+![Osiris](images/osiris.jpg)  
 
-**Genre**
-- 3D puzzle-platformer game developed in Unity.
+Embark on an adventure through a dungeon, solving puzzles and overcoming obstacles as Isis searches for her lost husband.  
 
-**Contribution**
-- Developed and tested the player controller, portal mechanics, level system and several hazards.
+- **Genre:** 2D puzzle-platformer game developed in Unity.  
+- **Contribution:**  
+  - Designed the player controller, portal mechanics, level system, and hazards.  
+- **Insights:**  
+  - Collaborated with a programming partner and practiced task delegation.  
+  - Gained experience using Render Textures.
 
-**Insights**
-- Collaborated with a programming partner, practiced task delegations, and gained experience with features like Render Textures.
+### [Requiem](https://capita333.itch.io/osiris) - [See Process](Projects/Osiris/README.md)  
+![Requiem](images/requiem.jpg)  
 
-## Gamejams  
+Embark on an adventure through a dungeon, solving puzzles and overcoming obstacles as Isis searches for her lost husband.  
 
-### [Weight For It](https://aran-piris.itch.io/weigh-for-it))  
-Test your skills in this thrilling game show where every gram counts.
-Scale objects perfectly to match the weight and win the big prize!
+- **Genre:** 2D puzzle-platformer game developed in Unity.  
+- **Contribution:**  
+  - Designed the player controller, portal mechanics, level system, and hazards.  
+- **Insights:**  
+  - Collaborated with a programming partner and practiced task delegation.  
+  - Gained experience using Render Textures.
+---
 
-**Genre**
-2D arcade game developed in Unity.
+## 🕹️ Game Jams  
 
-**Contribution**
-Improved the dialogue system from Atka and contributed to the game loop and object escalation mechanics.
+### [Weight For It | GMTK 2024](https://aran-piris.itch.io/weigh-for-it)  
+Test your skills in this thrilling game show where every gram counts.  
 
-**Insights**
-Learned from the working styles of other programmers and discovered useful tools they employed.
+- **Genre:** 2D arcade game developed in Unity.  
+- **Contribution:**  
+  - Improved the dialogue system from _Atka_ and contributed to the game loop and object escalation mechanics.  
+- **Insights:**  
+  - Learned from the working styles of other programmers and discovered useful tools they employed.
 
-### [Atka](https://lauratux.itch.io/atka))  
-_Atka_ follows Lilith, a volunteer studying the Inuit tribe.
-With her translator Ana, she uncovers mysteries hidden in the research project.
+---
 
-**Genre**
-3D Narrative Adventure Game made in Unity.
+### [Atka | Tecnojam 2024](https://lauratux.itch.io/atka)  
+_Atka_ follows Lilith, a volunteer studying the Inuit tribe.  
+With her translator Ana, she uncovers mysteries hidden in the research project.  
 
-**Contribution**
-Built the dialogue system from scratch. Created a cheat system to accelerate testing of advanced game stages without replaying the full game.
+- **Genre:** 3D narrative adventure game developed in Unity.  
+- **Contribution:**  
+  - Built the dialogue system from scratch.  
+  - Created a cheat system to accelerate testing of advanced game stages without replaying the full game.  
+- **Insights:**  
+  - Introduced to Unity Editor Tools to facilitate dialogue creation.
 
-**Insights**
-Introduced to Unity Editor Tools to facilitate dialogue creation.
+---
 
-### [Catalex](https://elix03.itch.io/catadex)  
-Serious game to showcase the value of Catalan. Guess the region of the words in the center of the board. If you’re wrong, you’ll start over!
- 
-**Genre**
-- 2D Serious Game made in Unity.
+### [Catalex (prototype) | Premis Ludi 2024](https://elix03.itch.io/catadex)  
+A serious game showcasing the value of the Catalan language.  
 
-**Contribution**
-- GameLoop, Card System and animations.
+- **Genre:** 2D serious game developed in Unity.  
+- **Contribution:**  
+  - Implemented the game loop, card system, and animations.  
+- **Insights:**  
+  - Utilized PlayerPrefs for saving and exported the game to WebGL.
 
-**Insights**
-- PlayerPrefs and WebGL Exportation.
+---
 
-### [Tecnocampus' Life] (https://darkalejo.itch.io/tecnocamper-simulator) 
-Navigate the tumultuous world of university life as a student, where you'll encounter a lot of challenges. Balance your mental well-being, academic pursuits, social connections, and financial stability to successfully reach graduation.
+### [Tecnocampus' Life | Lovejam 2022](https://darkalejo.itch.io/tecnocamper-simulator)  
+Navigate the tumultuous world of university life, balancing academics, mental well-being, social connections, and finances.  
 
-**Genre**
-- 2D Reigns-like game developed using Love2D.
+- **Genre:** 2D Reigns-like game developed in Love2D.  
+- **Contribution:**  
+  - Sole programmer. Designed and implemented the card system, game loop, and ending events.  
+- **Insights:**  
+  - Explored the use of JSON files for data management and their impact on performance.
 
-**Contribution**
-- Sole programmer. Designed and implemented the card system, game loop, and ending events.
-
-**Insights**
-- Gained insight into how JSON files work and their impact on game performance.
-
-Find more projects and contributions in the [Projects Folder](Projects/).  
-
-****
+---
