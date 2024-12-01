@@ -29,21 +29,31 @@ Play as Chiara, a little girl who is trapped on a magical train.
 
 Your mission is to escape the train with the help of the skills she has learned along the way.
 
-**Genre:** 3D Platformer (Unity)  
-- Play as Chiara, a little girl who is trapped on a magical train. Your mission is to escape the train with the help of the skills she has learned along the way.
+**Genre**
+- 3D platformer game developed in Unity.
+
+**Contribution**
+- Developed and tested the player controller using a FSM to handle different player states, and conducted functional, negative and exploratory tests for player abilities.
+- Created a tool to save and teleport to specific map locations optimizing level testing.
+
+**Insights**
+- Integrated FMOD for sound design and explored the Cinemachine Package for improved camera composition.
 
 ### [Osiris](Projects/Osiris/README.md)  
 Osiris is a 2D puzzle-platformer that narrates the story of Isis, who Is looking for her lost husband.
 
 Embark on an adventure through a dungeon, solving puzzles and overcoming obstacles.
 
-**Genre:** 2D Puzzle-Platformer (Unity)  
- - Designed the player controller, portal mechanics, and level system.  
-- Collaborated on task delegation and utilized Render Textures for optimization.
+**Genre**
+- 3D puzzle-platformer game developed in Unity.
 
-- 
+**Contribution**
+- Developed and tested the player controller, portal mechanics, level system and several hazards.
 
-## Projects  
+**Insights**
+- Collaborated with a programming partner, practiced task delegations, and gained experience with features like Render Textures.
+
+## Gamejams  
 
 ### [Weight For It](Projects/Atka/README.md)  
 Test your skills in this thrilling game show where every gram counts.
