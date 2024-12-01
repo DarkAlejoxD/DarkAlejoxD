@@ -24,7 +24,7 @@ Experienced in developing **2D and 3D puzzle and platform games in Unity**.
 
 ## Projects  
 
-### [Soul's Passage](Projects/SoulsPassage/README.md)  
+### [Soul's Passage](https://lauratux.itch.io/souls-passage) - [See Process](Projects/SoulsPassage/README.md)  
 Play as Chiara, a little girl who is trapped on a magical train.
 
 Your mission is to escape the train with the help of the skills she has learned along the way.
@@ -39,7 +39,7 @@ Your mission is to escape the train with the help of the skills she has learned 
 **Insights**
 - Integrated FMOD for sound design and explored the Cinemachine Package for improved camera composition.
 
-### [Osiris](Projects/Osiris/README.md)  
+### [Osiris](https://capita333.itch.io/osiris) - [See Process](Projects/Osiris/README.md)  
 Osiris is a 2D puzzle-platformer that narrates the story of Isis, who Is looking for her lost husband.
 
 Embark on an adventure through a dungeon, solving puzzles and overcoming obstacles.
@@ -55,7 +55,7 @@ Embark on an adventure through a dungeon, solving puzzles and overcoming obstacl
 
 ## Gamejams  
 
-### [Weight For It](Projects/Atka/README.md)  
+### [Weight For It](https://aran-piris.itch.io/weigh-for-it))  
 Test your skills in this thrilling game show where every gram counts.
 Scale objects perfectly to match the weight and win the big prize!
 
@@ -68,7 +68,7 @@ Improved the dialogue system from Atka and contributed to the game loop and obje
 **Insights**
 Learned from the working styles of other programmers and discovered useful tools they employed.
 
-### [Atka](Projects/Atka/README.md)  
+### [Atka](https://lauratux.itch.io/atka))  
 _Atka_ follows Lilith, a volunteer studying the Inuit tribe.
 With her translator Ana, she uncovers mysteries hidden in the research project.
 
@@ -81,29 +81,29 @@ Built the dialogue system from scratch. Created a cheat system to accelerate tes
 **Insights**
 Introduced to Unity Editor Tools to facilitate dialogue creation.
 
-### [Catalex](Projects/Atka/README.md)  
+### [Catalex](https://elix03.itch.io/catadex)  
 Serious game to showcase the value of Catalan. Guess the region of the words in the center of the board. If you’re wrong, you’ll start over!
  
 **Genre**
-2D Serious Game made in Unity.
+- 2D Serious Game made in Unity.
 
 **Contribution**
-GameLoop, Card System and animations.
+- GameLoop, Card System and animations.
 
 **Insights**
-PlayerPrefs and WebGL Exportation.
+- PlayerPrefs and WebGL Exportation.
 
-### [Catalex](Projects/Atka/README.md)  
+### [Tecnocampus' Life] (https://darkalejo.itch.io/tecnocamper-simulator) 
 Navigate the tumultuous world of university life as a student, where you'll encounter a lot of challenges. Balance your mental well-being, academic pursuits, social connections, and financial stability to successfully reach graduation.
 
 **Genre**
-2D Reigns-like game developed using Love2D.
+- 2D Reigns-like game developed using Love2D.
 
 **Contribution**
-Sole programmer. Designed and implemented the card system, game loop, and ending events.
+- Sole programmer. Designed and implemented the card system, game loop, and ending events.
 
 **Insights**
-Gained insight into how JSON files work and their impact on game performance.
+- Gained insight into how JSON files work and their impact on game performance.
 
 Find more projects and contributions in the [Projects Folder](Projects/).  
 
