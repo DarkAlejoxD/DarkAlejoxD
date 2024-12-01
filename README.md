@@ -99,7 +99,7 @@ A serious game showcasing the value of the Catalan language.
 
 ---
 
-### [Tecnocampus' Life | Lovejam 2022](https://darkalejo.itch.io/tecnocamper-simulator)  
+### [Tecnocampus Life | Lovejam 2022](https://darkalejo.itch.io/tecnocamper-simulator)  
 Navigate the tumultuous world of university life, balancing academics, mental well-being, social connections, and finances.  
 
 - **Genre:** 2D Reigns-like game developed in Love2D.  
