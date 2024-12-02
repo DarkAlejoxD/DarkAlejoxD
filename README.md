@@ -122,4 +122,5 @@ In this section, I will eventually upload systems I have developed that are reus
 ### Dialogue Manager
 Dialogue Manager developed for _Atka_ and reused in _Weight For It_ to facilitate the creation of dialogues.
 
-[![Watch the Video](Images/DialogueSystemShowcase.png)](https://youtu.be/9chJTeLUDa4)
+[DialogueSystem Video | Click on the Image](https://youtu.be/9chJTeLUDa4)
+[![Vídeo](Images/DialogueSystemShowcase.png)](https://youtu.be/9chJTeLUDa4)
