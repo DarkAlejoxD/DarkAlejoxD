@@ -51,6 +51,8 @@ Embark on an adventure through a dungeon, solving puzzles and overcoming obstacl
   - Collaborated with a programming partner and practiced task delegation.  
   - Gained experience using Render Textures.
 
+---
+
 ### Requiem | Unrealeased - _(Process Page in Progress)_
 ![Requiem](Images/Requiem.png)  
 
