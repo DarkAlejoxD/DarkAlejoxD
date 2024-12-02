@@ -31,18 +31,28 @@ Play as Chiara, a little girl trapped in a magical train. Your mission is to esc
 ## 3. Systems and Features
 
 ### Character Controller with FSM
-- **Description:**  Tried developing a Character controller with a State Pattern to control what actions can be triggered. 
-- **Technical Details:** 
+#### Description
+I developed a Character Controller using a State Pattern to manage which actions can be triggered at any given time. Prior to implementing this system, I relied on a series of if-statements. For every new action added to the game, I had to create additional if-statements to determine which actions were allowed in each scenario, which quickly became complex.
+
+Although this State Pattern-based system is relatively simple, refactoring the entire Character Controller to use it significantly streamlined testing and made it easier to modify values. For instance, during production, if designers wanted to enable an action in a state that previously did not allow it, or vice versa, this system facilitated those changes with minimal effort.
+
+#### Technical Details
+- **Repository:** [Souls Passage Repository](https://github.com/DarkAlejoxD/SoulsPassage_Code/tree/main/Assets/Scripts)
+
+- **Using:**
+  - FSM (GitHub Page in Progress)
   
 
-#### LedgeGrab
+
+
+### LedgeGrab
 Describe cómo funciona el sistema de **LedgeGrab**:  
 - ¿Qué es? (Por ejemplo: Permite al personaje agarrarse a bordes y moverse con fluidez).
 - Cómo se implementó. (Breve explicación del uso de la FSM y los estados involucrados).
 - Retos y soluciones. (Si hubo problemas, describe cómo los resolviste).
 
-#### Character Abilities
-##### Ghost View
+### Character Abilities
+#### Ghost View
 - **Descripción:** Explica en qué consiste esta habilidad (por ejemplo: "Permite al jugador ver a través de objetos para planificar su siguiente movimiento").
 - **Detalles técnicos:** Breve descripción del enfoque usado (por ejemplo: Raycasts o cambio de materiales).
 - **Uso:** Dónde se aplica esta habilidad en el juego.
