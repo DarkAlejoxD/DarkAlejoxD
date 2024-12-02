@@ -45,13 +45,12 @@ In this system, there are various components acting:
 | Image | Description |
 |-|-|
 | ![Character Scripts](Images/CharacterScripts.png) | **Player Scripts:** <br><br>All the scripts used for the CharacterController are designed to encapsulate each feature into separate files. |
-| ![Character Actions](Images/CharacterActions.png) | **Player Actions:** <br><br>All actions are controlled by the observer pattern. If the corresponding component is not subscribed, it will not interrupt the execution flow. <br>An example of this is the PlayerJump.cs component, which has access to PlayerController.OnJump and subscribes to it to handle jump-related events. |
+| ![Character Actions](Images/CharacterActions.png) | **Player Actions:** <br><br>All actions are controlled by the observer pattern. If the corresponding component is not subscribed, it should not interrupt the execution flow. <br>An example of this is the PlayerJump.cs component, which has access to PlayerController.OnJump and subscribes to it to handle jump-related events. |
 | ![PlayerFSM](Images/CharacterFSMStates.png) | **Player FSM & PlayerStates:** <br><br>The FSM takes advantage of a system I previously developed "_(GitHub Page in Progress)_", with a slight modification to its constructor to accept inputs through a class named _InputValues.cs_, which contains all actions performed during the current frame.|
 | ![PlayerFSMInit](Images/CharacterFSMInit.png) | **Player FSM Initialization:** <br><br>FSM initialization. |
 
+Each PlayerState contains relevant information about the player's current status and the animations associated with that state. For example:
 
-
-Every PlayerState contains information relevant to what is going on in the player and the information of the animations relative to this state. For example: 
 ##### PlayerState_DefaultMovement
 ```csharp
 using InputController;
@@ -184,52 +183,64 @@ namespace AvatarController.PlayerFSM
 }
 ```
 
+
+In the _PlayerState_X.OnPlayerState(...)_ function, I implement the logic for the current state and define the actions that can be performed.
+
+
+```csharp
+        public override void OnPlayerStay(InputValues inputs)
+        {
+            if (Data.Powers.HasGhostView)
+                _playerController.OnGhostView?.Invoke(inputs.GhostViewInput);
+
+            if (_characterController.isGrounded) //Maybe send a raycast?
+                _playerController.RequestChangeState(PlayerStates.OnGround);
+
+            else
+                _playerController.RequestChangeState(PlayerStates.OnAir);
+
+            if (_playerController.CanGrab)
+                _playerController.OnGrabCheck?.Invoke();
+
+            _playerController.OnDive?.Invoke(inputs.CrounchDiveInput); // Comment or delete if this state doesn't need this action
+            _playerController.OnJump?.Invoke(inputs.JumpInput); // Comment or delete if this state doesn't need this action
+            _playerController.OnMovement?.Invoke(inputs.MoveInput); // Comment or delete if this state doesn't need this action
+            
+        }
+```
+
 ### LedgeGrab
-Describe cómo funciona el sistema de **LedgeGrab**:  
-- ¿Qué es? (Por ejemplo: Permite al personaje agarrarse a bordes y moverse con fluidez).
-- Cómo se implementó. (Breve explicación del uso de la FSM y los estados involucrados).
-- Retos y soluciones. (Si hubo problemas, describe cómo los resolviste).
+This system allows the player to grab onto certain ledges.
+I chose to describe this system not because of its complexity, but because it was a significant challenge to make the mechanic function reliably. Below, I will explain some of the problems I encountered and how I solved them.
+
+Initially, I aimed to allow the player to grab any ledge in the game. However, when designers introduced models with complex meshes or rotated objects, the system became buggy. To address this, we decided to restrict the mechanic to specific invisible surfaces, ensuring consistent performance and avoiding unnecessary complications.
+
+(WIP)
 
 ### Character Abilities
 #### Ghost View
-- **Descripción:** Explica en qué consiste esta habilidad (por ejemplo: "Permite al jugador ver a través de objetos para planificar su siguiente movimiento").
-- **Detalles técnicos:** Breve descripción del enfoque usado (por ejemplo: Raycasts o cambio de materiales).
-- **Uso:** Dónde se aplica esta habilidad en el juego.
+(WIP)
 
 ##### Poltergeist
-- **Descripción:** Define la habilidad (por ejemplo: "Permite mover objetos a distancia").
-- **Detalles técnicos:** Describe la lógica detrás (como fuerzas físicas o interacciones específicas con colliders).
-- **Casos de uso:** Ejemplos de cómo mejora la jugabilidad.
+(WIP)
 
 ---
 
 ### Camera Controller
-- **Propósito:** Explica el objetivo del sistema (por ejemplo: "Proveer una cámara fluida que siga al jugador y se adapte a diferentes escenarios").  
-- **Características principales:**  
-  - Adaptación a cambios de estado del jugador.  
-  - Uso de Cinemachine o lógica personalizada.
-- **Retos superados:** Describe cualquier desafío técnico y cómo lo solucionaste.
+(WIP)
 
 ---
 
 ### Event System / Mechanism System
-- **Propósito:** Breve introducción (por ejemplo: "Gestión de eventos interactivos como puertas, trampas o puzzles").  
-- **Arquitectura:** Cómo está estructurado el sistema (por ejemplo, uso de un patrón Observer).  
-- **Ejemplo:** Describe un caso práctico (como abrir una puerta al activar un interruptor).  
+(WIP)
 
 ---
 
 ### Shaders
 #### Transparency Shader
-- **Descripción:** Qué hace el shader (por ejemplo: "Permite que ciertos objetos se vuelvan parcialmente transparentes al bloquear la vista del jugador").  
-- **Detalles técnicos:** Breve explicación del enfoque (como máscaras de profundidad o cambio de alfa).  
+(WIP)  
 
 #### Poltergeist Sphere Shader
-- **Descripción:** Define el propósito (por ejemplo: "Crea un efecto visual cuando un objeto es manipulado con la habilidad Poltergeist").  
-- **Detalles técnicos:** Incluye una breve descripción de los nodos o funciones principales usadas en el shader.  
+(WIP)
 
 ---
-
-## Conclusion
-- Resume brevemente cómo estas características juntas hacen que el juego sea único.  
-- Menciona cualquier aprendizaje o mejora futura que te gustaría implementar.
