@@ -74,6 +74,7 @@ You must explore the mall, evade and hide from creatures stalking you, and solve
 ## 🕹️ Game Jams  
 
 ### [Weight For It | GMTK 2024](https://aran-piris.itch.io/weigh-for-it)  
+<img src="Images/WeightForIt.png" width="300" height="200">
 Test your skills in this thrilling game show where every gram counts.  
 
 - **Genre:**
@@ -86,6 +87,7 @@ Test your skills in this thrilling game show where every gram counts.
 ---
 
 ### [Atka | Tecnojam 2024](https://lauratux.itch.io/atka)  
+<img src="Images/Atka.png" width="300" height="200">
 _Atka_ follows Lilith, a volunteer studying the Inuit tribe.  
 With her translator Ana, she uncovers mysteries hidden in the research project.  
 
@@ -100,6 +102,7 @@ With her translator Ana, she uncovers mysteries hidden in the research project.
 ---
 
 ### [Catalex (prototype) | Premis Ludi 2024](https://elix03.itch.io/catadex)  
+<img src="Images/Catadex.png" width="300" height="200">
 A serious game showcasing the value of the Catalan language.  
 
 - **Genre:**
@@ -111,7 +114,8 @@ A serious game showcasing the value of the Catalan language.
 
 ---
 
-### [Tecnocampus Life | Lovejam 2022](https://darkalejo.itch.io/tecnocamper-simulator)  
+### [Tecnocampus Life | Lovejam 2022](https://darkalejo.itch.io/tecnocamper-simulator)
+<img src="Images/Tecnocamper.png" width="300" height="200">
 Navigate the tumultuous world of university life, balancing academics, mental well-being, social connections, and finances.  
 
 - **Genre:** 2D Reigns-like game developed in Love2D.  
