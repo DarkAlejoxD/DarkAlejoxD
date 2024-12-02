@@ -1,4 +1,4 @@
-# Soul's Passage Process
+# Soul's Passage process
 
 |       Prototype       |         Alpha        |        Beta          | Gold |
 |-----------------------|----------------------|----------------------|------|
@@ -213,34 +213,41 @@ In the _PlayerState_X.OnPlayerState(...)_ function, I implement the logic for th
 This system allows the player to grab onto certain ledges.
 I chose to describe this system not because of its complexity, but because it was a significant challenge to make the mechanic function reliably. Below, I will explain some of the problems I encountered and how I solved them.
 
-Initially, I aimed to allow the player to grab any ledge in the game. However, when designers introduced models with complex meshes or rotated objects, the system became buggy. To address this, we decided to restrict the mechanic to specific invisible surfaces, ensuring consistent performance and avoiding unnecessary complications.
+Initially, I aimed to allow the player to grab any ledge in the game. However, when designers introduced models with complex meshes or rotated objects, the system became buggy. To address this, we restricted the mechanic to specific invisible surfaces with simple collision detection, ensuring consistent performance and avoiding unnecessary complications.
 
 (WIP)
+TODO: Show images and code of the ledge grab system showing how is setted.
 
 ### Character Abilities
 #### Ghost View
+The Ghost View ability is initially locked. Once unlocked, it allows the player to activate the power and see, as well as stand on, invisible platforms.
 (WIP)
 
 ##### Poltergeist
+The Poltergeist ability allows the player to enter Poltergeist mode, where they can select and manipulate movable items, such as drawers or a pile of plates, to reach new paths.
 (WIP)
 
 ---
 
 ### Camera Controller
+Using Cinemachine, the setup is based on trigger areas that change the current camera on the CinemachineBrain. Additionally, if the player exceeds the screen boundaries, a security virtual camera is activated to keep the player always visible.
 (WIP)
 
 ---
 
 ### Event System / Mechanism System
+Observer Pattern-based. The activators (triggers, buttons, etc.) and mechanisms (objects that can be activated) subscribe to the MechanismManager (instance, not singleton).
 (WIP)
 
 ---
 
 ### Shaders
 #### Transparency Shader
+Developed a shader using the stencil buffer that allows the player to see through walls when objects obstruct the avatar's vision.
 (WIP)  
 
 #### Poltergeist Sphere Shader
+Developed a shader using the stencil buffer that reveals a different view of the wall only through specific objects. It is used for the Poltergeist Sphere when the ability is activated.
 (WIP)
 
 ---
