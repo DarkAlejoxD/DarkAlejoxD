@@ -11,7 +11,8 @@ This project was developed as a university project by a team of 5 people in a pe
 
 Play as Chiara, a little girl trapped in a magical train. Your mission is to escape the train with the skills she has learned. 
 
-- **Repository:** [Souls Passage Repository](https://github.com/DarkAlejoxD/SoulsPassage_Code/tree/main/Assets/Scripts)
+- **Repository:** [Soul's Passage Repository](https://github.com/DarkAlejoxD/SoulsPassage_Code/tree/main/Assets/Scripts)
+- **Link to the Game:** [Soul's Passage in Itch.io](https://lauratux.itch.io/souls-passage)
 
 - **Genre:**
   - 3D platformer game developed in Unity.  
