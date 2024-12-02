@@ -138,4 +138,4 @@ Dialogue Manager developed for _Atka_ and reused in _Weight For It_ to facilitat
 
 ---
 
-Feel free to explore my work navigating by my publis repositories and reach out if you’d like to collaborate or have any questions!
+Feel free to explore my work navigating by my public repositories and reach out if you’d like to collaborate or have any questions!
