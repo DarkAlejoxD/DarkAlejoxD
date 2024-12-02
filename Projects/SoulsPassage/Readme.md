@@ -6,23 +6,34 @@
 
 # Index
 
-## Introduction
-This 
+## 1. Introduction
+This project was developed as a university project by a team of 5 people in a period of time of 3 month.
 
-## Team
+Play as Chiara, a little girl trapped in a magical train. Your mission is to escape the train with the skills she has learned. 
 
+- **Genre:**
+  - 3D platformer game developed in Unity.  
+- **Contribution:**  
+  - Developed and tested the player controller using an FSM to handle player states.  
+  - Conducted functional, negative, and exploratory tests for player abilities.  
+  - Created a tool to save and teleport to specific map locations for optimized level testing.  
+- **Insights:**  
+  - Integrated FMOD for sound design.  
+  - Explored Cinemachine for improved camera composition.
+
+## 2. Team
 - Laura Tuxans - Producer | Artist
 - Grazielly Sanchez - Designer | Artist
 - Paola Pica - Designer | Artist
 - Gerard Martínez - Designer
 - Camilo Londoño (Me) - Programmer
 
-## Systems and Features
+## 3. Systems and Features
 
 ### Character Controller with FSM
-- **Descripción:** 
-- **Detalles técnicos:** Breve descripción del enfoque usado (por ejemplo: Raycasts o cambio de materiales).
-- **Uso:** Dónde se aplica esta habilidad en el juego.
+- **Description:**  Tried developing a Character controller with a State Pattern to control what actions can be triggered. 
+- **Technical Details:** 
+  
 
 #### LedgeGrab
 Describe cómo funciona el sistema de **LedgeGrab**:  
