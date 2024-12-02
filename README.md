@@ -101,7 +101,7 @@ With her translator Ana, she uncovers mysteries hidden in the research project.
 
 ---
 
-### [Catalex (prototype) | Premis Ludi 2024](https://elix03.itch.io/catadex)  
+### [Catadex (prototype) | Premis Ludi 2024](https://elix03.itch.io/catadex)  
 <img src="Images/Catadex.png" width="300" height="200">
 A serious game showcasing the value of the Catalan language.  
 
