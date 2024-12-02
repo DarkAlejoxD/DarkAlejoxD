@@ -39,14 +39,16 @@ I developed a Character Controller using a State Pattern to manage which actions
 Although this State Pattern-based system is relatively simple, refactoring the entire Character Controller to use it significantly streamlined testing and made it easier to modify values. For instance, during production, if designers wanted to enable an action in a state that previously did not allow it, or vice versa, this system facilitated those changes with minimal effort.
 
 #### Technical Details
-- **Using:**
-  - FSM (GitHub Page in Progress)
 
 In this system, there are various components acting:
+
 | Image | Description |
 |-|-|
-|||
-| ![Character Scripts](Images/CharacterScripts.png) | All the scripts used for the CharacterController trying to encapsulate every feature in different files. |
+| ![Character Scripts](Images/CharacterScripts.png) | **Player Scripts:** <br><br>All the scripts used for the CharacterController are designed to encapsulate each feature into separate files. |
+| ![Character Actions](Images/CharacterActions.png) | **Player Actions:** <br><br>All actions are controlled by the observer pattern. If the corresponding component is not subscribed, it will not interrupt the execution flow. <br>An example of this is the PlayerJump.cs component, which has access to PlayerController.OnJump and subscribes to it to handle jump-related events. |
+| ![PlayerFSM](Images/CharacterFSMStates.png) | **Player FSM & PlayerStates:** <br><br>The FSM takes advantage of a system I previously developed "_(GitHub Page in Progress)_", with a slight modification to its constructor to accept inputs through a class named _InputValues.cs_, which contains all actions performed during the current frame.|
+| ![PlayerFSMInit](Images/CharacterFSMInit.png) | **Player FSM Initialization:** <br><br>FSM initialization. |
+
 
 
 Every PlayerState contains information relevant to what is going on in the player and the information of the animations relative to this state. For example: 
