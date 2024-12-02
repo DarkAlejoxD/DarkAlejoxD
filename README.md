@@ -115,3 +115,13 @@ Navigate the tumultuous world of university life, balancing academics, mental we
   - Explored the use of JSON files for data management and their impact on performance.
 
 ---
+
+## 🛠️ Features & Systems
+In this section, I will eventually upload systems I have developed that are reusable in future projects.
+
+### Dialogue Manager
+Dialogue Manager developed for _Atka_ and reused in _Weight For It_ to facilitate the creation of dialogues.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/9chJTeLUDa4" 
+frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
