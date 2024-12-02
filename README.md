@@ -57,7 +57,7 @@ Embark on an adventure through a dungeon, solving puzzles and overcoming obstacl
 ![Requiem](Images/Requiem.png)  
 
 Personal Project I collaborated on with five other members.
-"Requiem" is a survival horror game where you play as a character with limited vision navigating a dark and solitary shopping mall.
+"Requiem" is a survival horror game where you play as a blinded character navigating a dark and solitary shopping mall.
 You must explore the mall, evade and hide from creatures stalking you, and solve puzzles to escape.
 
 - **Genre:**
