@@ -248,7 +248,7 @@ Developed a shader using the stencil buffer that allows the player to see throug
 (WIP)  
 
 #### Poltergeist Sphere Shader
-Developed a shader using the stencil buffer that reveals a different view of the wall only through specific objects. It is used for the Poltergeist Sphere when the ability is activated.
+Developed a shader using the stencil buffer that reveals a different view of the world only through specific objects. It is used for the Poltergeist Sphere when the ability is activated.
 (WIP)
 
 ---
