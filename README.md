@@ -2,7 +2,7 @@
 
 ## 🌟 About Me  
 I am a developer with a passion for continuous **learning** and **improving** game development processes.  
-My long-term goal is to pursue a career as a **Gameplay Programmer**, bringing games to life.  
+My goal is to pursue a career as a **Gameplay Programmer**, bringing games to life.  
 Experienced in developing **2D and 3D puzzle and platform games in Unity**.
 
 ---
@@ -38,7 +38,7 @@ Play as Chiara, a little girl trapped in a magical train. Your mission is to esc
 
 ---
 
-### [Osiris | 2023](https://capita333.itch.io/osiris)
+### [Osiris | 2023](https://capita333.itch.io/osiris) - (Process Page in Progress)
 ![Osiris](Images/Osiris.png)  
 
 Embark on an adventure through a dungeon, solving puzzles and overcoming obstacles as Isis searches for her lost husband.  
@@ -51,18 +51,22 @@ Embark on an adventure through a dungeon, solving puzzles and overcoming obstacl
   - Collaborated with a programming partner and practiced task delegation.  
   - Gained experience using Render Textures.
 
-### [Requiem | Unrealeased](https://capita333.itch.io/osiris)
+### Requiem | Unrealeased - _(Process Page in Progress)_
 ![Requiem](Images/Requiem.png)  
 
-Embark on an adventure through a dungeon, solving puzzles and overcoming obstacles as Isis searches for her lost husband.  
+Personal Project I collaborated on with five other members.
+"Requiem" is a survival horror game where you play as a character with limited vision navigating a dark and solitary shopping mall.
+You must explore the mall, evade and hide from creatures stalking you, and solve puzzles to escape.
 
 - **Genre:**
-  - 2D puzzle-platformer game developed in Unity.  
+  - 2D survival horror game developed in Unity.
 - **Contribution:**  
-  - Designed the player controller, portal mechanics, level system, and hazards.  
+  - Designed all the PlayerController.
+  - Designed the enemyController using FSM.
+  - Integrated A* Project by Aron Granberg.
 - **Insights:**  
-  - Collaborated with a programming partner and practiced task delegation.  
-  - Gained experience using Render Textures.
+  - Gained a deeper understanding of the A* algorithm and its practical applications.
+  - Learned to use enum flags for state management.
 ---
 
 ## 🕹️ Game Jams  
@@ -89,7 +93,7 @@ With her translator Ana, she uncovers mysteries hidden in the research project.
   - Built the dialogue system from scratch.  
   - Created a cheat system to accelerate testing of advanced game stages without replaying the full game.  
 - **Insights:**  
-  - Introduced to Unity Editor Tools to facilitate dialogue creation.
+  - Introduced to Custom Editor Scripts to facilitate dialogue creation.
 
 ---
 
@@ -125,3 +129,7 @@ Dialogue Manager developed for _Atka_ and reused in _Weight For It_ to facilitat
 [DialogueSystem Video | Click on the Image](https://youtu.be/9chJTeLUDa4)
 
 [![Vídeo](Images/DialogueSystemShowcase.png)](https://youtu.be/9chJTeLUDa4)
+
+---
+
+Feel free to explore my work navigating by my publis repositories and reach out if you’d like to collaborate or have any questions!
