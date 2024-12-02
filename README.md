@@ -38,7 +38,7 @@ Play as Chiara, a little girl trapped in a magical train. Your mission is to esc
 
 ---
 
-### [Osiris | 2023](https://capita333.itch.io/osiris) - [See Process](Projects/Osiris/README.md)  
+### [Osiris | 2023](https://capita333.itch.io/osiris)
 ![Osiris](Images/Osiris.png)  
 
 Embark on an adventure through a dungeon, solving puzzles and overcoming obstacles as Isis searches for her lost husband.  
@@ -51,7 +51,7 @@ Embark on an adventure through a dungeon, solving puzzles and overcoming obstacl
   - Collaborated with a programming partner and practiced task delegation.  
   - Gained experience using Render Textures.
 
-### [Requiem | Unrealeased](https://capita333.itch.io/osiris) - [See Process](Projects/Osiris/README.md)  
+### [Requiem | Unrealeased](https://capita333.itch.io/osiris)
 ![Requiem](Images/Requiem.png)  
 
 Embark on an adventure through a dungeon, solving puzzles and overcoming obstacles as Isis searches for her lost husband.  
