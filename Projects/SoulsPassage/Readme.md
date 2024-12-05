@@ -14,16 +14,6 @@ Play as Chiara, a little girl trapped in a magical train. Your mission is to esc
 - **Repository:** [Soul's Passage Repository](https://github.com/DarkAlejoxD/SoulsPassage_Code/tree/main/Assets/Scripts)
 - **Link to the Game:** [Soul's Passage in Itch.io](https://lauratux.itch.io/souls-passage)
 
-- **Genre:**
-  - 3D platformer game developed in Unity.  
-- **Contribution:**  
-  - Developed and tested the player controller using an FSM to handle player states.  
-  - Conducted functional, negative, and exploratory tests for player abilities.  
-  - Created a tool to save and teleport to specific map locations for optimized level testing.  
-- **Insights:**  
-  - Integrated FMOD for sound design.  
-  - Explored Cinemachine for improved camera composition.
-
 ## 2. Team
 - Laura Tuxans - Producer | Artist
 - Grazielly Sanchez - Designer | Artist
@@ -52,37 +42,21 @@ In this system, there are various components acting:
 
 Each PlayerState contains relevant information about the player's current status and the animations associated with that state. For example:
 
-##### PlayerState_DefaultMovement
+##### PlayerState_DefaultMovement - [code](https://github.com/DarkAlejoxD/SoulsPassage_Code/blob/main/Assets/Scripts/CharacterController/PlayerFSM/PlayerStates/PlayerState_DefaultMovement.cs)
 ```csharp
 using InputController;
 using UnityEngine;
 
 namespace AvatarController.PlayerFSM
 {
-    /// <summary>
-    /// FreeMove, the regular state of the player
-    /// </summary>
+    /// <summary>   FreeMove, the regular state of the player   </summary>
     public class PlayerState_DefaultMovement : PlayerState
     {
-        private const string MOVEMENT_VALUE = "Speed";
-        private const string ONGROUND_ANIM = "OnGround";
-        private const string AFK_ON_TRIGGER = "AFKon";
-        private const string AFK_OFF_TRIGGER = "AFKoff";
-        private const float SMOOTH = 0.3f;
 
-        private float _animControl = 0;
-
-        private float _timeToIdle = 0;
-        private float _timeControl = 0;
-        private float _jumpTimeControl = 0;
-
-        private bool _poltergeistActivated;
-        private bool _isAFK;
-        private bool _canJump;
-
-        public override string Name => "Default Movement";
-        private bool IsAFK {...}
-        private bool IsTrigger {...}
+#region Attibutes
+        //Player State Fields & Properties
+        //...
+#endregion
 
         public PlayerState_DefaultMovement(PlayerController playerController) : base(playerController)
         {
@@ -92,7 +66,6 @@ namespace AvatarController.PlayerFSM
         public override void OnEnter()
         {
             _playerController.UnBlockMovement();
-            //If necessary change the playerMovementData
             _poltergeistActivated = false;
 
             if (Anim)
@@ -193,12 +166,6 @@ In the _PlayerState_X.OnPlayerState(...)_ function, I implement the logic for th
         {
             if (Data.Powers.HasGhostView)
                 _playerController.OnGhostView?.Invoke(inputs.GhostViewInput);
-
-            if (_characterController.isGrounded) //Maybe send a raycast?
-                _playerController.RequestChangeState(PlayerStates.OnGround);
-
-            else
-                _playerController.RequestChangeState(PlayerStates.OnAir);
 
             if (_playerController.CanGrab)
                 _playerController.OnGrabCheck?.Invoke();
