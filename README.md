@@ -27,7 +27,7 @@ Experienced in developing **2D and 3D puzzle and platform games in Unity**.
 
 ## 🎮 Projects  
 
-### [Soul's Passage | 2024](https://lauratux.itch.io/souls-passage) - [See Process](Projects/SoulsPassage)  
+### [Soul's Passage | 2024](https://lauratux.itch.io/souls-passage) - See Process -> [Here](Projects/SoulsPassage)  
 ![Soul's Passage](Images/SoulsPassage.png)  
 
 Play as Chiara, a little girl trapped in a magical train. Your mission is to escape the train with the skills she has learned.  
