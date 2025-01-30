@@ -21,7 +21,7 @@ Experienced in developing **2D and 3D puzzle and platform games in Unity**.
 - **Design Patterns:**  
   Singleton | Observer | State | Object Pooling | SOLID Principles  
 - **Version Control:**  
-  GitHub (proficient in managing branches and resolving conflicts)
+  GitHub
 
 ---
 
