@@ -8,7 +8,7 @@ Experienced in developing **2D and 3D puzzle and platform games in Unity**.
 ---
 
 ## 🔗 Social
-- **Linkedn:** [Camilo Alejandro Londoño Otero](https://www.linkedin.com/in/camilo-alejandro-londoño-otero-642b17229/)
+- **LinkedIn:** [Camilo Alejandro Londoño Otero](https://www.linkedin.com/in/camilo-alejandro-londoño-otero-642b17229/)
 - **Games:** [Itch.io page](https://darkalejoxd.itch.io)
 
 ---
